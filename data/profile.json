@@ -1,0 +1,84 @@
+{
+    "name": "Matheus Finamor Correa",
+    "photo": "https://avatars.githubusercontent.com/u/130673683?v=4",
+    "job": "Desenvolvedor de Software Junior",
+    "location": "Santiago - RS",
+    "phone": "(55) 999295852",
+    "email": "matheusfinamor1@gmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "Nodejs",
+          "logo": "https://raw.githubusercontent.com/matheusfinamor1/js-portfolio/master/data/imgs/nodejs.png"
+        },
+        {
+          "name": "Java",
+          "logo": "https://raw.githubusercontent.com/matheusfinamor1/js-portfolio/master/data/imgs/java.png"
+        },
+        {
+          "name": "Kotlin",
+          "logo": "https://raw.githubusercontent.com/matheusfinamor1/js-portfolio/master/data/imgs/kotlin.png"
+        },
+        {
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/matheusfinamor1/js-portfolio/master/data/imgs/css.png"
+        },
+        {
+          "name": "GitHub",
+          "logo": "https://raw.githubusercontent.com/matheusfinamor1/js-portfolio/master/data/imgs/github.png"
+        },
+        {
+          "name": "HTML",
+          "logo": "https://raw.githubusercontent.com/matheusfinamor1/js-portfolio/master/data/imgs/html.png"
+        },
+        {
+          "name": "JS",
+          "logo": "https://raw.githubusercontent.com/matheusfinamor1/js-portfolio/master/data/imgs/js.png"
+        },
+        {
+          "name": "VSCode",
+          "logo": "https://raw.githubusercontent.com/matheusfinamor1/js-portfolio/master/data/imgs/vscode.png"
+        }
+      ],
+      "softSkills": [
+        "Empatia",
+        "Liderança",
+        "Trabalho em equipe",
+        "Flexibilidade",
+        "Organização"
+      ]
+    },
+    "languages": [
+      "Português BR",
+      "Inglês (iniciante)"
+    ],
+    "portfolio": [
+      {
+        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+        "url": "https://github.com/matheusfinamor1/js-developer-pokedex",
+        "github": true
+      },
+      {
+        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+        "url": "https://github.com/matheusfinamor1/js-portfolio",
+        "github": true
+      },
+      {
+        "name": "Android - Projeto Bix",
+        "url": "https://github.com/matheusfinamor1/Projeto-Bix",
+        "github": true
+      },
+      {
+        "name": "Curso Ministrado na DIO para Criação de um App de Carros Elétricos",
+        "url": "https://github.com/matheusfinamor1/app-electric-car-dio",
+        "github": true
+      }
+    ],
+    "professionalExperience": [
+      {
+        "name": "Android Developer",
+        "period": "jun/2021 - jul/2023",
+        "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      }
+    ]
+  }
