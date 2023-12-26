@@ -29,20 +29,20 @@
     <main class="main">
 
         <header class="header">
-            <img src="/assets/img/my-photo.jpg" alt="Foto de Perfil" class="photo profile.photo">
+            <img src="/assets/img/my-photo.jpg" alt="Foto de Perfil" class="photo" id="profile.photo">
 
             <h1 class="title">
-                Olá, <br>eu sou o <span class="profile.name">Carregando...</span>
+                Olá, <br>eu sou o <span id="profile.name">Carregando...</span>
             </h1>
 
             <div class="information">
-                <p class="job"><span class="profile.job">Carregando...</span></p>
-                <p class="location"><span class="profile.location">Carregando...</span></p>
-                <p class="phone">
-                    <a href="tel:(55) 9 9929-5852"><span class="profile.phone">Carregando...</span></a>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
+                <p class="phone" >
+                    <a href="tel:(55) 9 9929-5852" id="profile.phone">Carregando...</a>
                 </p>
                 <p class="email">
-                    <a href="mailto:matheusfinamor1@gmail.com"><span class="profile.email">Carregando...</span></a>
+                    <a href="mailto:matheusfinamor1@gmail.com" id="profile.email">Carregando...</a>
                 </p>
             </div>
         </header>
@@ -102,7 +102,7 @@
             </div>
         </section>
 
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
                 <h2>Skills</h2>
             </button>
@@ -110,32 +110,16 @@
                 <div class="skills">
                     <section class="tools" >
                         <h3>Habilidades profissionais</h3>
-                        <ul>
-                            <li>
-                                <img src="/assets/img/icons/tools/kotlin.svg" alt="Kotlin" title="Kotlin">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/nodejs.svg" alt="Nodejs" title="Nodejs">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/java.svg" alt="Java" title="Java">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/css.svg" alt="CSS" title="CSS">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/github.svg" alt="GitHub" title="GitHub">
-                            </li>
-                        </ul>
+                        <ul id="profile.skills.hardSkills"></ul>
                     </section>
     
                     <section class="personal" >
                         <h3>Habilidades pessoais</h3>
-                        <ul>
-                            <li>Liderança</li>
-                            <li>Trabalho em equipe</li>
-                            <li>Organização</li>
-                            <li>Comprometimento</li>
+                        <ul id="profile.skills.softSkills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
                         </ul>
                     </section>
                 </div>
