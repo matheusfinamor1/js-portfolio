@@ -43,13 +43,28 @@ function updatePortfolio(profileData){
     portfolio.innerHTML = profileData.portfolio.map(project => {
         return `
         <li>
-        <!--(target="_blank") faz com que abra o link em outra aba-->
-        <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
-        <a href="${project.url}" target="_blank">${project.url}</a>
+            <!--(target="_blank") faz com que abra o link em outra aba-->
+            <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
+            <a href="${project.url}" target="_blank">${project.url}</a>
     </li>
         `
     }).join('')
 }
+
+function updateProfessionalExperience(profileData){
+    const proExperience = document.getElementById('profile.professionalExperience')
+    proExperience.innerHTML = profileData.professionalExperience.map(exp => {
+        return `
+        <li>
+            <!--(target="_blank") faz com que abra o link em outra aba-->
+            <h3 class="title">${exp.name}</h3>
+            <p class="period">${exp.period}</p>
+            <p>${exp.description}</p>
+    </li>
+        `
+    }).join('')
+}
+
 
 (async function (){
     const profileData = await fetchProfileData()
@@ -58,4 +73,5 @@ function updatePortfolio(profileData){
     updateHardSkills(profileData)
     updateLanguages(profileData)
     updatePortfolio(profileData)
+    updateProfessionalExperience(profileData)
 })()
